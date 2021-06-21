@@ -1,0 +1,41 @@
+.header-navber-area {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    z-index: 999;
+    background: transparent;
+    color: #ffffff;
+}
+.header-navber-area .nav-top-bar {
+    background: transparent;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ffffff;
+}
+.container {
+    max-width: 1140px;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.header-navber-area .nav-top-bar .top-social {
+    float: right;
+    padding: 0;
+    margin: 0 0 0 10px;
+    list-style-type: none;
+}
+.header-navber-area .nav-top-bar .opening-hours {
+    float: right;
+}
+.header-navber-area .nav-top-bar .opening-hours p i {
+    margin-right: 3px;
+    font-size: 16px;
+}

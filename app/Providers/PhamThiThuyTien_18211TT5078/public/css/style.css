@@ -1,0 +1,113 @@
+.navbar {
+    background-color: #012231 !important;
+    padding: 0;
+}
+
+.navbar-brand>img{
+    width: 25%;
+}
+
+.navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #fff;
+    background-color: #80ad47;
+    text-align: center;
+    display: flex;
+    padding: 20px;
+}
+
+.nav-link{
+    display: flex;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #80ad47;
+    padding: 20px;
+
+}
+
+.banner {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    height: 600px;
+}
+
+.food>h1{
+    text-align: right;
+    color: #fff;
+    padding: 20px 30px 0 0;
+}
+
+.food>h3{
+    color: #80ad47;
+    padding: 30px 50px 50px 30px;
+}
+.foodContent>p{
+    color: grey;
+    font-size: 0.9rem;
+}
+
+.food1 {
+    background-color: #012231;
+}
+
+.food2 {
+    background-color: #e2e4e5;
+}
+
+.more{
+    background-color: #80ad47;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0;
+    padding: 5px 0;
+}
+
+.row1>.col>.more>a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.row2 {
+    background-image: url(../images/8.jpg);
+    background-size: cover;
+    height: 150px;
+}
+
+.row2>h2{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.ctbottom {
+    background-color: #00131c;
+}
+
+.row3>.col>h4{
+    color: #fff;
+    padding: 20px 0;
+}
+
+.row3>.col>p{
+    color: gray;
+    font-size: 0.9rem;
+}
+
+.bb{
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+
+.row3>.col>p>a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+footer{
+    background-color: #80ad47;
+    text-align: center;
+    color: #fff;
+    padding: 10px 0;
+    font-weight: bold;
+}
